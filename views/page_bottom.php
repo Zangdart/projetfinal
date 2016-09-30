@@ -1,4 +1,4 @@
 <footer><?php require('menu.php'); ?></footer>
-</div>
+<!--</div>-->
 </body>
 </html>

@@ -12,10 +12,11 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 
 </head>
 <body>
-<div id="wrapper">
+<!--<div id="wrapper">-->
 	<header>
 <!--        <div id="logo"><img src="images/sky.jpg" alt="toto"/div>-->
 
+		<h1><?= SITE_NAME ?> </h1>
 
         <?php require('menu.php'); ?></header>
 
