@@ -11,5 +11,5 @@ $menu_data = array(
     'Feedback' => 'feedback.php',
     'Réalisations' => 'realisation.php',
     'Soumission' => 'catalog.php',
-    'Nous joindre' => 'nousjoindre.php',
+    'Nous joindre' => 'test.php',
 );

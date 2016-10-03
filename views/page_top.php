@@ -11,6 +11,7 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
 
+
 </head>
 <body>
 <!--<div id="wrapper">-->

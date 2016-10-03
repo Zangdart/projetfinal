@@ -7,11 +7,11 @@ require_once('defines.php');
 
 <div id="owl-demo" class="owl-carousel owl-theme">
 
-<div class="item"><img src="demo-slides/zombie.png"/></div>
-<div class="item"><img src="demo-slides/grab.png"/></div>
-<div class="item"><img src="demo-slides/feather.png"/></div>
-<div class="item"><img src="demo-slides/modern.png"/></div>
-<div class="item"><img src="demo-slides/controls.png"/></div>
+<div class="item"><img src="assets/img/demo-slides/zombie.png"/></div>
+<div class="item"><img src="assets/img/demo-slides/grab.png"/></div>
+<div class="item"><img src="assets/img/demo-slides/multi.png"/></div>
+<div class="item"><img src="assets/img/demo-slides/touch.png"/></div>
+
 
 </div>
     <div class="trois">

@@ -8,7 +8,10 @@ require_once('views/page_top.php');// Inclusion des defines
     define('P_ADRESSE', 'adresse');
 
 
-//$raison_est_valide = false;
+$nom_est_valide=false;
+$courriel_est_valide=false;
+$message_est_valide=false;
+$adresse_est_valide=false;
 $validation_message = '';
 
 /*Solution du début*/

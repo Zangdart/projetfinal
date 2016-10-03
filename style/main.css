@@ -116,6 +116,7 @@ footer nav ul li a {
 input[name=message] {
     width: 300px;
     height: 50px;
+    vertical-align: top;
 }
 /*-------------------------------------------------FEEDBACK-------------------------------------------------------*/
 .trois figure{
@@ -126,6 +127,8 @@ input[name=message] {
     display: inline-block;
     width: 100%;
 }
+
+
 /*----------------------------------------------------GIVE FEEDBACK---------------------------------------------------*/
 .thumb {
     height: 175px;
