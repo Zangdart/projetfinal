@@ -8,7 +8,7 @@ require_once('views/page_top.php');// Inclusion des defines
     define('P_ADRESSE', 'adresse');
 
 
-$raison_est_valide = false;
+//$raison_est_valide = false;
 $validation_message = '';
 
 /*Solution du début*/
@@ -62,7 +62,7 @@ if($en_reception) {
 
 
 
-if($nom_est_valide && $courriel_est_valide && $message_est_valide && $raison_est_valide) {
+if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_est_valide) {
     header('Location:' . CONF) ;
 
     exit;
@@ -71,14 +71,13 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $raison_est
 
 
 
-require_once('views/page_top.php');// Inclusion des defines
-?>
+//require_once('views/page_top.php');// Inclusion des defines
+//?>
 <main class="roundedbox">
     <p id="form-feedback"><?= $validation_message?></p>
     <form name="contact_form" method="post">
         <div class="form-line">
             <label for="nom">Nom :</label>
-
             <input type="text" name="nom" id="nom"
                    value="<?= isset($_POST['nom']) ? $_POST['nom'] : '' ?>" />
         </div>

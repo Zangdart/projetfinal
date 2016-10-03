@@ -8,8 +8,8 @@ define('HOME_PAGE', 'index.php');
 define('CONF', 'confpage.php');
 $menu_data = array(
     'Accueil' => 'index.php',
-    'Feedback' => 'catalog.php',
-    'Réalisations' => 'catalog.php',
+    'Feedback' => 'feedback.php',
+    'Réalisations' => 'realisation.php',
     'Soumission' => 'catalog.php',
     'Nous joindre' => 'nousjoindre.php',
 );

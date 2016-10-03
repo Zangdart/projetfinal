@@ -8,7 +8,8 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 	<title><?= SITE_NAME ?></title>
     <link rel="stylesheet" href="style/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="script/main.js"></script>
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
 
 </head>
 <body>
