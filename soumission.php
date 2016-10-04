@@ -2,10 +2,10 @@
 require_once('views/page_top.php');// Inclusion des defines
 
 
-    define('P_NOM','nom');
-    define('P_COURRIEL', 'courriel');
-    define('P_MESSAGE', 'message');
-    define('P_ADRESSE', 'adresse');
+define('P_NOM','nom');
+define('P_COURRIEL', 'courriel');
+define('P_MESSAGE', 'message');
+define('P_ADRESSE', 'adresse');
 
 
 $nom_est_valide=false;
@@ -76,6 +76,8 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
 
 //require_once('views/page_top.php');// Inclusion des defines
 //?>
+<div id="wrapper">
+
 <main class="roundedbox">
     <p id="form-feedback"><?= $validation_message?></p>
     <form name="contact_form" method="post">
@@ -92,23 +94,38 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
         </div>
 
         <div class="form-line">
-            <label for="message">Message :</label>
-            <input type="text" name="message" id="message"
-                   value="<?= isset($_POST['message']) ? $_POST['message'] : '' ?>"/>
-        </div>
-
-        <div class="form-line">
             <label for="adresse">Adresse :</label>
             <input type="text" name="adresse" id="adresse"
                    value="<?= isset($_POST['adresse']) ? $_POST['adresse'] : '' ?>"/>
         </div>
 
+        <div class="form-line">
+            <label for="message">Titre de votre projet :</label>
+            <input type="text" name="message" id="message"
+                   value="<?= isset($_POST['message']) ? $_POST['message'] : '' ?>"/>
+        </div>
+
 
         <div class="form-line">
-                <input type="submit" value="Soumettre" name="soumettre">
+        <textarea rows="4" cols="50">Parlez nous de votre projet !
+        </textarea>
+        </div>
+
+
+            <div id="upload">
+                <input type="file" id="files" name="files[]" multiple />
+                <output id="list"></output>
             </div>
-        </form>
-    </main>
+            <div id="infos">
+            </div>
+
+        <div class="form-line">
+            <input type="submit" value="Soumettre" name="soumettre">
+        </div>
+        </div>
+
+    </form>
+</main>
 
 </main>
 <?php

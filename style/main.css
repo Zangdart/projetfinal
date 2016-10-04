@@ -114,9 +114,9 @@ footer nav ul li a {
 }
 
 input[name=message] {
-    width: 300px;
-    height: 50px;
-    vertical-align: top;
+    /*width: 300px;*/
+    /*height: 50px;*/
+    /*vertical-align: top;*/
 }
 /*-------------------------------------------------FEEDBACK-------------------------------------------------------*/
 .trois figure{

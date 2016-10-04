@@ -16,9 +16,9 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 <body>
 <!--<div id="wrapper">-->
 	<header>
-<!--        <div id="logo"><img src="images/sky.jpg" alt="toto"/div>-->
+        <div id="logo"><img src="images/volition" alt="Volition"/div>
 
-		<h1><?= SITE_NAME ?> </h1>
+<!--		<h1>--><?//= SITE_NAME ?><!-- </h1>-->
 
         <?php require('menu.php'); ?></header>
 

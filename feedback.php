@@ -12,8 +12,9 @@ require_once('defines.php');
 <div class="item"><img src="assets/img/demo-slides/multi.png"/></div>
 <div class="item"><img src="assets/img/demo-slides/touch.png"/></div>
 
-
 </div>
+
+<div id="trois-container">
     <div class="trois">
         <figure>
             <img src="images/pokemon.jpg" alt="poke" >
@@ -43,9 +44,10 @@ require_once('defines.php');
                 <figcaption>Réalisation d'une pokeball.</figcaption>
             </figure>
         </div>
-
+</div>
+        <div id="feedback-link">
         <a href="givefeedback.php">Give feedback</a>
-
+        </div>
 
     </div> <!--fin du wrapper-->
 
