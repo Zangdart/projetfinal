@@ -49,7 +49,7 @@ if($en_reception) {
     $message_est_valide =  (strlen($message_val) >= 10);
 
     if (! $message_est_valide) {
-        $validation_message .= '<span class="error_case">Le message n\'est pas valide (10 caractère min). </span>';
+        $validation_message .= '<span class="error_case">L\'objet n\'est pas valide (3 caractère min). </span>';
     }
 }
 
@@ -59,7 +59,7 @@ if($en_reception) {
     $adresse_est_valide =  (strlen($adresse_val) >= 2);
 
     if (! $adresse_est_valide) {
-        $validation_message .= '<span class="error_case">L\'adresse n\'est pas valide (2 caractère min). </span>';
+        $validation_message .= '<span class="error_case">L\'adresse n\'est pas valide (5 caractère min). </span>';
     }
 }
 
@@ -76,6 +76,8 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
 
 //require_once('views/page_top.php');// Inclusion des defines
 //?>
+<div id="wrapper">
+
 <main class="roundedbox">
     <p id="form-feedback"><?= $validation_message?></p>
     <form name="contact_form" method="post">
@@ -92,23 +94,33 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
         </div>
 
         <div class="form-line">
-            <label for="message">Message :</label>
-            <input type="text" name="message" id="message"
-                   value="<?= isset($_POST['message']) ? $_POST['message'] : '' ?>"/>
-        </div>
-
-        <div class="form-line">
             <label for="adresse">Adresse :</label>
             <input type="text" name="adresse" id="adresse"
                    value="<?= isset($_POST['adresse']) ? $_POST['adresse'] : '' ?>"/>
         </div>
 
+        <div class="form-line">
+            <label for="message">Objet :</label>
+            <input type="text" name="message" id="message"
+                   value="<?= isset($_POST['message']) ? $_POST['message'] : '' ?>"/>
+        </div>
+
+        <div class="form-line">
+        <textarea rows="4" cols="50">Bonjour mon nom est...
+Je voulais savoir si...
+        </textarea>
+        </div>
+
+
+
 
         <div class="form-line">
                 <input type="submit" value="Soumettre" name="soumettre">
             </div>
+
         </form>
     </main>
+</div>
 
 </main>
 <?php
