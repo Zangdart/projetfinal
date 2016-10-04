@@ -18,7 +18,7 @@ define('REALISATION', 'realisation.php');
 define('IMG_PATH', 'images/');
 define('ALT', 'Belle image ! ');
 define('PHOTO1', 'pokemon.jpg');
-define('PHOTO2', 'photo2');
+define('PHOTO2', 'volition.png');
 
 
 

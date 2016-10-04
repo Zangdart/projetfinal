@@ -16,7 +16,8 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 <body>
 <!--<div id="wrapper">-->
 	<header>
-        <div id="logo"><img src="images/volition" alt="Volition"/div>
+        <div id="logo"><a href="<?= HOME_PAGE ?>"><img src="<?= IMG_PATH . PHOTO2 ?>" alt="<?= ALT ?>"/></a>
+			 </div>
 
 <!--		<h1>--><?//= SITE_NAME ?><!-- </h1>-->
 
