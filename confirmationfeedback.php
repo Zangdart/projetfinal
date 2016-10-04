@@ -10,11 +10,11 @@ require_once('defines.php');
 
 	<div id="wrapper_conf">
 		<img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
-		<p>Merci de nous avoir contacté ! </p>
-		<p>Nous vous répondrons sous peu! </p>
+		<p>Merci d'avoir laissé votre critique !</p>
+		<p>Nous espérons que vous avez apprécié nos services! </p>
 
 	<div class="link">
-		<a href="<?= HOME_PAGE ?>"><?= HOME_PAGE_NAME?></a>
+		<a href="<?= FDB ?>">Voir d'autres <?= FDB_PAGE_NAME?></a>
 	</div>
 
 	</div>

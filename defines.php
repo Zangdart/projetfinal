@@ -6,6 +6,8 @@ define('HOME_PAGE_NAME', 'Accueil');
 define('HOME_PAGE', 'index.php');
 define('CONF_PAGE_NAME', 'Confirmation');
 define('CONF', 'confpage.php');
+define('CFDB_PAGE_NAME', 'Confirmation de Feedback');
+define('CFDB', 'confirmationfeedback.php');
 define('FDB_PAGE_NAME', 'Feedback');
 define('FDB', 'feedback.php');
 define('GFDB_PAGE_NAME', 'Give Feedback');

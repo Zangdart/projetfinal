@@ -34,7 +34,7 @@ if($en_reception) {
 }
 
 if($nom_est_valide  && $message_est_valide) {
-    header('Location:' . FDB) ;
+    header('Location:' . CFDB) ;
 
     exit;
 }
