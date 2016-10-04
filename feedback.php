@@ -17,36 +17,36 @@ require_once('defines.php');
 <div id="trois-container">
     <div class="trois">
         <figure>
-            <img src="images/pokemon.jpg" alt="poke" >
+            <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
             <figcaption>Réalisation d'une pokeball.</figcaption>
         </figure>
         <figure>
-            <img src="images/pokemon.jpg" alt="poke">
+            <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
             <figcaption>Réalisation d'une pokeball.</figcaption>
         </figure>
         <figure>
-            <img src="images/pokemon.jpg" alt="poke">
+            <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
             <figcaption>Réalisation d'une pokeball.</figcaption>
         </figure>
     </div>
 
         <div class="trois">
             <figure>
-                <img src="images/pokemon.jpg" alt="poke" >
+                <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
                 <figcaption>Réalisation d'une pokeball.</figcaption>
             </figure>
             <figure>
-                <img src="images/pokemon.jpg" alt="poke">
+                <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
                 <figcaption>Réalisation d'une pokeball.</figcaption>
             </figure>
             <figure>
-                <img src="images/pokemon.jpg" alt="poke">
+                <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
                 <figcaption>Réalisation d'une pokeball.</figcaption>
             </figure>
         </div>
 </div>
-        <div id="feedback-link">
-        <a href="givefeedback.php">Give feedback</a>
+        <div class="link">
+            <a href="<?= GFDB ?>"><?= GFDB_PAGE_NAME?></a>
         </div>
 
     </div> <!--fin du wrapper-->

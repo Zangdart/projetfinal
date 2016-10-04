@@ -6,12 +6,14 @@ require_once('views/page_top.php');// Inclusion des defines
     define('P_COURRIEL', 'courriel');
     define('P_MESSAGE', 'message');
     define('P_ADRESSE', 'adresse');
+    define('P_TEL', 'tel');
 
 
 $nom_est_valide=false;
 $courriel_est_valide=false;
 $message_est_valide=false;
 $adresse_est_valide=false;
+$tel_est_valide=false;
 $validation_message = '';
 
 /*Solution du début*/
@@ -21,6 +23,7 @@ $en_reception =
     array_key_exists(P_NOM , $_POST)
     && array_key_exists(P_COURRIEL , $_POST)
     && array_key_exists(P_MESSAGE , $_POST)
+    && array_key_exists(P_TEL , $_POST)
     && array_key_exists('soumettre' , $_POST);
 
 //VALIDATION DU NOM
@@ -63,9 +66,18 @@ if($en_reception) {
     }
 }
 
+//VALIDATION DU TEL
+if($en_reception) {
+    $tel_val = filter_input(INPUT_POST, P_TEL, FILTER_SANITIZE_STRING);
+    $tel_est_valide =  (strlen($tel_val) >= 10);
+
+    if (! $tel_est_valide) {
+        $validation_message .= '<span class="error_case">Le format doit être: XXX-XXX-XXXX. </span>';
+    }
+}
 
 
-if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_est_valide) {
+if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_est_valide  && $tel_est_valide) {
     header('Location:' . CONF) ;
 
     exit;
@@ -100,14 +112,20 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
         </div>
 
         <div class="form-line">
+            <label for="tel">Téléphone :</label>
+            <input type="text" name="tel" id="tel"
+                   value="<?= isset($_POST['tel']) ? $_POST['tel'] : '' ?>"/>
+        </div>
+
+        <div class="form-line">
             <label for="message">Objet :</label>
             <input type="text" name="message" id="message"
                    value="<?= isset($_POST['message']) ? $_POST['message'] : '' ?>"/>
         </div>
 
         <div class="form-line">
-        <textarea rows="4" cols="50">Bonjour mon nom est...
-Je voulais savoir si...
+        <textarea rows="4" cols="50">Bonjour mon nom est
+Je voulais savoir si
         </textarea>
         </div>
 

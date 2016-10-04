@@ -12,9 +12,12 @@ require_once('defines.php');
 		<img src="images/pokemon.jpg" alt="toto"/>
 		<p>Merci de nous avoir contacté ! </p>
 		<p>Nous vous répondrons sous peu! </p>
+
+	<div class="link">
+		<a href="<?= HOME_PAGE ?>"><?= HOME_PAGE_NAME?></a>
 	</div>
 
-
+	</div>
 
 </main>
 <?php
