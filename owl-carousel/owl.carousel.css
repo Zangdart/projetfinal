@@ -4,14 +4,22 @@
  */
 
 /*moncss*/
+/*img {*/
+	/*width: 500px;*/
+/*}*/
 #owl-demo {
-	width: 400px;
-	height:200px;
+	width:30%;
+	margin-left: 30%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	/*height:450px;*/
 }
+
 #owl-demo .item img{
 	display: block;
 	width: 100%;
-	/*height: auto;*/
+	height: auto;
 }
 
 /* clearfix */

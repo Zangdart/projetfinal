@@ -2,7 +2,9 @@
 require_once('views/page_top.php');// Inclusion des defines
 require_once('defines.php');
 ?>
-
+    <div id="propos">
+        <!--    laisser car img se trouve dedans-->
+    </div>
     <div id="wrapper">
 
         <div id="owl-demo" class="owl-carousel owl-theme">

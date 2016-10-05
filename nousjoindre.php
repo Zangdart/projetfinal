@@ -88,6 +88,11 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
 
 //require_once('views/page_top.php');// Inclusion des defines
 //?>
+
+<div id="propos">
+    <!--    laisser car img se trouve dedans-->
+</div>
+
 <div id="wrapper">
 
 <main class="roundedbox">
@@ -124,7 +129,7 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
         </div>
 
         <div class="form-line">
-        <textarea rows="4" cols="50">Bonjour mon nom est
+        <textarea rows="10" cols="60">Bonjour mon nom est
 Je voulais savoir si
         </textarea>
         </div>

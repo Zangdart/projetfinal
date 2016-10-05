@@ -40,6 +40,9 @@ if($nom_est_valide  && $message_est_valide) {
 }
 
 ?>
+<div id="propos">
+    <!--    laisser car img se trouve dedans-->
+</div>
 
 <div id="wrapper">
 

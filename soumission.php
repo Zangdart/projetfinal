@@ -88,6 +88,9 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
 
 //require_once('views/page_top.php');// Inclusion des defines
 //?>
+<div id="propos">
+    <!--    laisser car img se trouve dedans-->
+</div>
 <div id="wrapper">
 
 <main class="roundedbox">
