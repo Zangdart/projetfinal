@@ -18,7 +18,7 @@ require_once('defines.php');
 		<p>Nous vous répondrons sous peu! </p>
 		</div>
 	<div class="link" id="final">
-		<a href="<?= HOME_PAGE ?>"><?= HOME_PAGE_NAME?></a>
+		<a href="<?= HOME_PAGE ?>">Retour à l'<?= HOME_PAGE_NAME?></a>
 	</div>
 
 	</div>

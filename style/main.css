@@ -34,6 +34,14 @@ p {
     text-align: justify;
     font-size: 115% ;
 }
+h1 {
+    margin-top: 2%;
+    color: #27AAE1;
+    font-family:'Vladimir Script', Serif ;
+    font-size: 220%;
+
+
+}
 
 .error_case{
     color: #27AAE1;
@@ -196,7 +204,7 @@ footer nav {
     margin-bottom: 2%;
 }
 
-/*-------------------------------------------------FEEDBACK-------------------------------------------------------*/
+/*---------------------------------------------FEEDBACK+REALISATIONS--------------------------------------------------*/
 .trois figure{
     display: inline-block;
     width: 30%;
@@ -209,6 +217,9 @@ footer nav {
 }
 .trois {
     margin-bottom: 3.5%;
+}
+#trois-container {
+    margin-left: 10%;   /*centrage puisque wrapper=80%*/
 }
 figcaption {
     text-align: center;

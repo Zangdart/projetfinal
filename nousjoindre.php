@@ -94,7 +94,7 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
 </div>
 
 <div id="wrapper">
-
+<h1>Pour nous contacter il faut juste remplir ces quelques informations et le tour et joué!</h1>
 <main class="roundedbox">
     <p id="form-feedback"><?= $validation_message?></p>
     <form name="contact_form" method="post">
