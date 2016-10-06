@@ -46,14 +46,15 @@ if($nom_est_valide  && $message_est_valide) {
 
 <div id="wrapper">
 
-<div id="upload">
-    <input type="file" id="files" name="files[]" multiple />
-    <output id="list"></output>
-</div>
 
-    <div id="infos">
+
+<!--    <div id="infos">-->
         <main class="roundedbox">
             <p id="form-feedback"><?= $validation_message?></p>
+            <div id="upload">
+                <input type="file" id="files" name="files[]" multiple />
+                <output id="list"></output>
+            </div>
             <form name="contact_form" method="post">
                 <div class="form-line">
                     <label for="nom">Nom Complet:</label>
@@ -62,18 +63,18 @@ if($nom_est_valide  && $message_est_valide) {
                 </div>
 
                 <div class="form-line">
-                    <label for="message">Titre de votre critique :</label>
+                    <label for="message">Objet :</label>
                     <input type="text" name="message" id="message"
                            value="<?= isset($_POST['message']) ? $_POST['message'] : '' ?>"/>
                 </div>
 
 
                 <div class="form-line">
-        <textarea rows="10" cols="60">Faites nous part de votre critique ici!
+        <textarea>Faites nous part de votre critique ici!
         </textarea>
                 </div>
 
-                <div class="form-line">
+                <div class="link">
                     <input type="submit" value="Soumettre" name="soumettre">
                 </div>
 
@@ -85,7 +86,7 @@ if($nom_est_valide  && $message_est_valide) {
 
 
 
-</div>
+<!--</div>-->
 
 <?php
 require_once('views/page_bottom.php');// Inclusion des defines

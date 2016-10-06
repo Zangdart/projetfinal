@@ -5,48 +5,65 @@ require_once('defines.php');
     <div id="propos">
         <!--    laisser car img se trouve dedans-->
     </div>
+
     <div id="wrapper">
 
         <div id="owl-demo" class="owl-carousel owl-theme">
 
-            <div class="item"><img src="demo-slides/zombie.png"/></div>
-            <div class="item"><img src="demo-slides/grab.png"/></div>
-            <div class="item"><img src="demo-slides/feather.png"/></div>
-            <div class="item"><img src="demo-slides/modern.png"/></div>
-            <div class="item"><img src="demo-slides/controls.png"/></div>
+            <div class="item"><img src="<?= IMG_PATH . PHOTO7 ?>" alt="<?= ALT ?>"/></div>
+            <div class="item"><img src="<?= IMG_PATH . PHOTO4 ?>" alt="<?= ALT ?>"/></div>
+            <div class="item"><img src="<?= IMG_PATH . PHOTO5 ?>" alt="<?= ALT ?>"/></div>
+            <div class="item"><img src="<?= IMG_PATH . PHOTO4 ?>" alt="<?= ALT ?>"/></div>
+
 
         </div>
-        <div class="trois">
-            <figure>
-                <img src="images/pokemon.jpg" alt="poke" >
-                <figcaption>Réalisation d'une pokeball.</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pokemon.jpg" alt="poke">
-                <figcaption>Réalisation d'une pokeball.</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pokemon.jpg" alt="poke">
-                <figcaption>Réalisation d'une pokeball.</figcaption>
-            </figure>
+
+        <div id="trois-container">
+            <div class="trois">
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO7 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC3?></figcaption>
+                </figure>
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO4 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC1?></figcaption>
+                </figure>
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO5 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC2?></figcaption>
+                </figure>
+            </div>
+
+            <div class="trois">
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO12 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC?></figcaption>
+                </figure>
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO10 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC4?></figcaption>
+                </figure>
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO11 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC5?></figcaption>
+                </figure>
+            </div>
+
+            <div class="trois">
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC?></figcaption>
+                </figure>
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC?></figcaption>
+                </figure>
+                <figure>
+                    <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
+                    <figcaption><?= FGC?></figcaption>
+                </figure>
+            </div>
         </div>
-
-        <div class="trois">
-            <figure>
-                <img src="images/pokemon.jpg" alt="poke" >
-                <figcaption>Réalisation d'une pokeball.</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pokemon.jpg" alt="poke">
-                <figcaption>Réalisation d'une pokeball.</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pokemon.jpg" alt="poke">
-                <figcaption>Réalisation d'une pokeball.</figcaption>
-            </figure>
-        </div>
-
-
 
     </div> <!--fin du wrapper-->
 

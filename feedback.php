@@ -10,9 +10,9 @@ require_once('defines.php');
 
 <div id="owl-demo" class="owl-carousel owl-theme">
 
-<div class="item"><img src="<?= IMG_PATH . PHOTO6 ?>" alt="<?= ALT ?>"/></div>
-<div class="item"><img src="<?= IMG_PATH . PHOTO2 ?>" alt="<?= ALT ?>"/></div>
-<div class="item"><img src="<?= IMG_PATH . PHOTO3 ?>" alt="<?= ALT ?>"/></div>
+<div class="item"><img src="<?= IMG_PATH . PHOTO7 ?>" alt="<?= ALT ?>"/></div>
+<div class="item"><img src="<?= IMG_PATH . PHOTO4 ?>" alt="<?= ALT ?>"/></div>
+<div class="item"><img src="<?= IMG_PATH . PHOTO5 ?>" alt="<?= ALT ?>"/></div>
 <div class="item"><img src="<?= IMG_PATH . PHOTO4 ?>" alt="<?= ALT ?>"/></div>
 
 
@@ -21,11 +21,11 @@ require_once('defines.php');
 <div id="trois-container">
     <div class="trois">
         <figure>
-            <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
-            <figcaption><?= FGC?></figcaption>
+            <img src="<?= IMG_PATH . PHOTO7 ?>" alt="<?= ALT ?>"/>
+            <figcaption><?= FGC3?></figcaption>
         </figure>
         <figure>
-            <img src="<?= IMG_PATH . PHOTO3 ?>" alt="<?= ALT ?>"/>
+            <img src="<?= IMG_PATH . PHOTO4 ?>" alt="<?= ALT ?>"/>
             <figcaption><?= FGC1?></figcaption>
         </figure>
         <figure>
@@ -36,18 +36,33 @@ require_once('defines.php');
 
         <div class="trois">
             <figure>
-                <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
-                <figcaption>Réalisation d'une pokeball.</figcaption>
+                <img src="<?= IMG_PATH . PHOTO12 ?>" alt="<?= ALT ?>"/>
+                <figcaption><?= FGC?></figcaption>
             </figure>
             <figure>
-                <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
-                <figcaption>Réalisation d'une pokeball.</figcaption>
+                <img src="<?= IMG_PATH . PHOTO10 ?>" alt="<?= ALT ?>"/>
+                <figcaption><?= FGC4?></figcaption>
             </figure>
             <figure>
-                <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
-                <figcaption>Réalisation d'une pokeball.</figcaption>
+                <img src="<?= IMG_PATH . PHOTO11 ?>" alt="<?= ALT ?>"/>
+                <figcaption><?= FGC5?></figcaption>
             </figure>
         </div>
+
+    <div class="trois">
+        <figure>
+            <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
+            <figcaption><?= FGC?></figcaption>
+        </figure>
+        <figure>
+            <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
+            <figcaption><?= FGC?></figcaption>
+        </figure>
+        <figure>
+            <img src="<?= IMG_PATH . PHOTO1 ?>" alt="<?= ALT ?>"/>
+            <figcaption><?= FGC?></figcaption>
+        </figure>
+    </div>
 </div>
         <div class="link">
             <a href="<?= GFDB ?>"><?= GFDB_PAGE_NAME?></a>

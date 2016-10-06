@@ -121,19 +121,19 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
         </div>
 
         <div class="form-line">
-            <label for="message">Titre de votre projet :</label>
+            <label for="message">Titre Projet :</label>
             <input type="text" name="message" id="message"
                    value="<?= isset($_POST['message']) ? $_POST['message'] : '' ?>"/>
         </div>
 
 
         <div class="form-line">
-        <textarea rows="10" cols="80">Parlez nous de votre projet !
+        <textarea>Parlez nous de votre projet !
         </textarea>
         </div>
 
 
-            <div id="upload">
+            <div id="upload1">
                 <input type="file" id="files" name="files[]" multiple />
                 <output id="list"></output>
             </div>

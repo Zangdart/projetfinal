@@ -25,13 +25,19 @@ define('PHOTO3', 'rodin.jpg');
 define('PHOTO4', 'dp.jpg');
 define('PHOTO5', 'tank.jpg');
 define('PHOTO6', 'tour.jpg');
-define('PHOTO7', 'cheshire.jpg');
-define('PHOTO8', 'send-icon.png');
+define('PHOTO7', 'sr.jpg');
+define('PHOTO8', 'cheshire.jpg');
 define('PHOTO9', 'black-background.jpg');
+define('PHOTO10', 'rbt.jpg');
+define('PHOTO11', 'eastern-box.jpg');
+define('PHOTO12', 'pb.jpg');
 
-define('FGC', 'Réalisation d\'une pokeball. ');
-define('FGC1', 'Le penseur de Rodin. ');
-define('FGC2', 'Tank historique en 3D. ');
+define('FGC', 'Réalisation d\'une pokeball ');
+define('FGC1', 'Le penseur de Tim Miller ');
+define('FGC2', 'Tank historique en 3D ');
+define('FGC3', 'Kawai Nakama ');
+define('FGC4', 'Super Robot ');
+define('FGC5', 'Boîte Asiatique');
 
 
 

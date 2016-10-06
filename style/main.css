@@ -10,10 +10,33 @@ body {
     font-family: "Calibri", sans-serif;
 
 }
+main {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 75%;
+    /*margin: auto;*/
+    padding: 5px;
+    color: #fff;
+    min-height: 400px;
+    border: 1px solid #38378e;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    background: #a2bdda;
+    background: -webkit-gradient(linear, left top, right bottom, from(#a2bdda), to(#faa51a));
+    background: -moz-linear-gradient(top, #a2bdda, #8196ae);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+
 
 p {
     text-align: justify;
     font-size: 115% ;
+}
+
+.error_case{
+    color: #27AAE1;
 }
 #wrapper {
     margin: 0 auto;
@@ -72,6 +95,7 @@ nav ul li a {
 
 nav a:hover {
     color: darkgoldenrod;
+    text-decoration: underline;
 }
 
 footer nav ul li a {
@@ -123,7 +147,7 @@ footer nav {
     /*width: 227px;*/
     /*height: 181px;*/
 }
-/*-------------------------------------------AJOUT CSS PROJET FINAL----------------------------------------------------*/
+/*---------------------------------------------------IMAGES-----------------------------------------------------------*/
 .images, #images {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -159,12 +183,19 @@ footer nav {
 #wrapper_conf img {
     width:50%;
 }
-
-input[name=message] {
-    /*width: 300px;*/
-    /*height: 50px;*/
-    /*vertical-align: top;*/
+#wrapper_conf div:first-of-type{
+    margin-bottom: 2%;
 }
+#wrapper_conf div:first-of-type p{
+    font-family:'Vladimir Script', Serif ;
+    font-size: 350%;
+    color: #27AAE1;
+}
+
+#final {
+    margin-bottom: 2%;
+}
+
 /*-------------------------------------------------FEEDBACK-------------------------------------------------------*/
 .trois figure{
     display: inline-block;
@@ -185,6 +216,17 @@ figcaption {
 .link {
     text-align: center;
 }
+.link a {
+    color: #e8f0de;
+    border: solid 1px #e27224;
+    cursor: pointer;
+    padding: 5px 20px;
+    background: #ee8909;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
 /*----------------------------------------------------GIVE FEEDBACK---------------------------------------------------*/
 .thumb {
@@ -192,13 +234,91 @@ figcaption {
     border: 1px solid #000;
     margin: 10px 5px 0 0;
 }
+input[type="submit"], input[type="file"] {
+     color: #e8f0de;
+     border: solid 1px #e27224;
+     cursor: pointer;
+     padding: 5px 20px;
+     background: #ee8909;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     border-radius: 5px;
+     text-decoration: none;
+ }
+
+#nom, #files, #message, #adresse, #courriel, #tel {
+    margin-bottom: 2%;
+}
+.form-line {
+    text-align: center;
+}
+textarea {
+    width: 80%;
+    height: 200px;
+}
+#files {
+    width: 40%;
+}
+#form-feedback {
+    margin-bottom: 1%;
+}
+
+form[name="contact_form"] label {
+    display: inline-block;
+    width: 100px;
+    min-width: 100px;
+    font-weight: bold;
+    text-align: right;
+}
+
+form[name="contact_form"] input, form[name="contact_form"] textarea {
+    color: #e8f0de;
+    border: solid 1px #e27224;
+    cursor:text ;
+    padding: 5px 20px;
+    background: #8196ae;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+}
+
+form[name="contact_form"] p {
+    padding: 10px;
+    text-align: center;
+}
+
+form[name="contact_form"] input[type="text"] {
+    width: 30%;
+    border: 1px solid #888;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+form[name="contact_form"] input[type="text"]:focus {
+    border-color: #000;
+}
+
+form[name="contact_form"] input:hover {
+    background: goldenrod;
+}
+
+form[name="contact_form"] input[type="submit"] {
+    margin-top: 20px;
+    margin-left : auto;
+    margin-right : auto;
+}
+/*-------------------------------------------------SOUMISSION---------------------------------------------------------*/
+#upload1{
+    margin-left: 10%;
+}
+
 
 
 /*-------------------------------------------FIN CSS PROJET FINAL----------------------------------------------------*/
 
-.error_case{
-    color: #27AAE1;
-}
 
 
 
