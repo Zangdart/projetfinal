@@ -92,6 +92,7 @@ if($nom_est_valide && $courriel_est_valide && $message_est_valide && $adresse_es
     <!--    laisser car img se trouve dedans-->
 </div>
 <div id="wrapper">
+    <h1 class="center">Décrivez nous votre projet !</h1>
 
 <main class="roundedbox">
     <p id="form-feedback"><?= $validation_message?></p>

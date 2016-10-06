@@ -7,6 +7,7 @@ require_once('defines.php');
     </div>
 
     <div id="wrapper">
+        <h1 class="center">Voici quelques unes de vos réalisations!</h1>
 
 <div id="owl-demo" class="owl-carousel owl-theme">
 

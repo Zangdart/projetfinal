@@ -46,6 +46,7 @@ if($nom_est_valide  && $message_est_valide) {
 
 <div id="wrapper">
 
+    <h1 class="center">Faites l'évaluation de nos produits ici !</h1>
 
 
 <!--    <div id="infos">-->

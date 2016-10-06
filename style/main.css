@@ -39,8 +39,9 @@ h1 {
     color: #27AAE1;
     font-family:'Vladimir Script', Serif ;
     font-size: 220%;
-
-
+}
+.center {
+    text-align: center;
 }
 
 .error_case{
@@ -200,9 +201,6 @@ footer nav {
     color: #27AAE1;
 }
 
-#final {
-    margin-bottom: 2%;
-}
 
 /*---------------------------------------------FEEDBACK+REALISATIONS--------------------------------------------------*/
 .trois figure{
@@ -226,6 +224,8 @@ figcaption {
 }
 .link {
     text-align: center;
+    margin-bottom: 2%;
+
 }
 .link a {
     color: #e8f0de;

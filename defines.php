@@ -35,7 +35,7 @@ define('PHOTO12', 'pb.jpg');
 define('FGC', 'Réalisation d\'une pokeball ');
 define('FGC1', 'Le penseur de Tim Miller ');
 define('FGC2', 'Tank historique en 3D ');
-define('FGC3', 'Kawai Nakama ');
+define('FGC3', 'Kawai Nakamas ');
 define('FGC4', 'Super Robot ');
 define('FGC5', 'Boîte Asiatique');
 
